@@ -12,7 +12,7 @@ function Contact() {
         "service_xwju52i",
         "template_bj3hng6",
         form.current,
-        "HPUTykSF-kgXNEwJi"
+        "ZBtnUqO5sH6I4Luyn"
       )
       .then(
         (result) => {
