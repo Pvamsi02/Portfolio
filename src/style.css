@@ -10,7 +10,7 @@ body {
  --image-gradient: linear-gradient(
     to bottom left,
     rgba(209, 209, 209, 0.678),
-    rgba(45, 151, 197, 0.863)
+    rgba(207, 234, 34, 0.863)
   );
  }
  .navbar-color{
@@ -19,7 +19,7 @@ body {
   .home-section{
     margin: 0;
     padding: 0;
-    background-image: var(--image-gradient);
+    /* background-image: var(--image-gradient); */
   }
      .home-content {
     padding: 1rem 0 2rem !important;
@@ -144,4 +144,20 @@ body {
   .profile-pic{
    max-height: 450px;
     border-radius: 50%;
+  }
+  .resume-button{
+    border-radius: 10px;
+    background:linear-gradient(darkgoldenrod,rgb(28, 188, 182));
+  }
+  .about-main{
+    margin: auto;
+    width: 50%;
+  }
+  .project-table{
+    margin: auto;
+    width: 80%;
+  }.contact-form{
+    margin-left: 30%;
+    /* padding-left: 30%; */
+    width: 50%;
   }
