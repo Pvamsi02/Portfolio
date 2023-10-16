@@ -4,8 +4,7 @@ function Project() {
     <div>
       <h1 className="text-center">Projects</h1>
       <div className="project-table">
-
-      <table className="table table-stripped  ">
+      <table className="table table-striped">
         <thead>
           <tr>
             <th scope="col">Title</th>

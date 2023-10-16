@@ -14,7 +14,12 @@ body {
   );
  }
  .navbar-color{
-    background-color: #017f8d;
+    background-color: #0295a5;
+    opacity: 0.9;
+    transition: all ease 0.5s;
+ }
+ .navbar-color:hover{
+  opacity: 1.0;
  }
   .home-section{
     margin: 0;
