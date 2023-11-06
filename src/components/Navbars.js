@@ -8,16 +8,18 @@ import {
   AiOutlineContacts,
 } from "react-icons/ai";
 import { FcAbout } from "react-icons/fc";
-import profile from "./favicon-32x32.png";
+import profile from "./PV-icon.png";
 
 function Navbars() {
   return (
     <div>
-      <nav className=" p-2 navbar  navbar-expand-lg navbar-dark navbar-color">
+      <nav className="navbar navbar-expand-lg ">
         <div class="container">
           <Link className="navbar-brand text-dark" to="/">
-            <img src={profile} alt="" />{" "}
-            Pavana Vamsi
+            <img src={profile} alt="" class="pvicon" />{" "}
+            <span class="vamsi">
+              Pavana Vamsi
+              </span>
           </Link>
 
           <button
@@ -31,28 +33,28 @@ function Navbars() {
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li class="nav-item mx-3 text-dark">
-                <Link className=" nav-link active" to="/">
+              <li class="nav-item  ">
+                <Link className=" nav-link active text-dark" to="/">
                   <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
                 </Link>
               </li>
-              <li class="nav-item mx-3 text-dark">
-                <Link className=" nav-link active" to="/about">
+              <li class="nav-item ">
+                <Link className=" nav-link active text-dark" to="/about">
                   <FcAbout style={{ marginBottom: "2px" }} /> About
                 </Link>
               </li>
-              <li class="nav-item mx-3 text-dark">
-                <Link className=" nav-link active" to="/project">
+              <li class="nav-item ">
+                <Link className=" nav-link active text-dark" to="/project">
                   <AiOutlineFundProjectionScreen
                     style={{ marginBottom: "2px" }}
                   />{" "}
                   Project
                 </Link>
               </li>
-              <li class="nav-item mx-3 text-dark">
-                <Link className=" nav-link active" to="/contact">
+              <li class="nav-item ">
+                <Link className=" nav-link active text-dark" to="/contact">
                   <AiOutlineContacts style={{ marginBottom: "2px" }} /> Contact
                 </Link>
               </li>

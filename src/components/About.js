@@ -2,8 +2,8 @@ import React from "react";
 function About() {
   return (
     <div>
-      <h1 className="text-center">Wanted to Know About me</h1>
-      <h1 className="text-center">Welcome</h1>
+      <h1 className="text-center text-light">Wanted to Know About me</h1>
+      <h1 className="text-center text-light">Welcome</h1>
       <div className="about-main justify-content-center">
         <p>
           Hello guys,
@@ -23,8 +23,8 @@ function About() {
             Development{" "}
           </li>
         </ul>
-        <h4 className="text-center">Education</h4>
-        <table className="table table-striped">
+        <h4 className="text-center text-light">Education</h4>
+        <table className="table table-striped about-table">
           <thead>
             <tr>
               <th scope="col">Qualification</th>

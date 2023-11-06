@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import profile from "./21BCE5095.jpg";
+import profile from "./21BCE5095.png";
 import resume from "./resume.pdf";
 import Type from "./Type";
 
@@ -10,12 +10,12 @@ function Home() {
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
           <Row>
-            <Col md={5}>
-              <img src={profile} alt="home pic" className="profile-pic" />
+            <Col md={5} >
+              <img  src={profile} alt="home pic" className="profile-pic" />
             </Col>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hello{" "}
+              Hello{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
@@ -31,7 +31,7 @@ function Home() {
                 style={{ padding: 50, textAlign: "left" }}
               >
                 <Type />
-                <a href={resume} className="btn resume-button" download="Pavana Vamsi">
+                <a href={resume} className="btn-outline-dark btn  btn-success text-light " download="PavanaVamsi">
                 Get Resume &nbsp;
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

@@ -13,18 +13,23 @@ body {
     rgba(207, 234, 34, 0.863)
   );
  }
- .navbar-color{
-    background-color: #0295a5;
-    opacity: 0.9;
-    transition: all ease 0.5s;
+ .pvicon{
+    max-width: 35px;
+    max-height: 35px;
+ }   
+.vamsi{
+   font-family: Barlow;
+  font-size: 1.1em;
  }
- .navbar-color:hover{
-  opacity: 1.0;
- }
+
+  .nav-item{
+    font-size: 1em;
+    padding: 1px;
+    margin-left: 5px;
+  }
   .home-section{
     margin: 0;
     padding: 0;
-    /* background-image: var(--image-gradient); */
   }
      .home-content {
     padding: 1rem 0 2rem !important;
@@ -38,68 +43,20 @@ body {
 
   .heading {
     font-size: 2.4em !important;
-    padding-left: 70px !important;
+    padding-left: 50px !important;
+    font-family:Barlow;
   }
   
   .heading-name {
     font-size: 2.5em !important;
+    font-family:Barlow;
     padding-left: 50px !important;
   }
   .typing{
+    font-family:Barlow;
     font-size: 2.5em !important;
   }
-  
-.home-about-social {
-  text-align: center !important;
-  padding-top: 25px;
-  color: white !important;
-}
 
-.home-about-social-links {
-  justify-content: center !important;
-  padding-top: 15px !important;
-  display: inline-block !important;
-  position: relative !important;
-  padding-inline-start: 0 !important;
-}
-
-.home-social-icons {
-  position: relative !important;
-  display: inline-block !important;
-  width: 40px !important;
-  height: 40px !important;
-  text-align: center !important;
-  font-size: 1.2em !important;
-  line-height: 2em !important;
-  background: rgba(255, 255, 255, 0.972) !important;
-  border-radius: 50% !important;
-  transition: 0.5s !important;
-}
-
-.home-social-icons::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background: #1456db;
-  transition: 0.5s;
-  transform: scale(0.9);
-  z-index: -1;
-}
-
-.home-social-icons:hover::before {
-  transform: scale(1.1);
-  box-shadow: 0 0 15px #017f8d;
-}
-
-.home-social-icons:hover {
-  color: #0b4979e1;
-  box-shadow: 0 0 5px #0b4979e1;
-  text-shadow: 0 0 2px #0b4979e1;
-}
 
 .social-icons {
   display: inline-block !important;
@@ -149,14 +106,12 @@ body {
   .profile-pic{
    max-height: 450px;
     border-radius: 50%;
-  }
-  .resume-button{
-    border-radius: 10px;
-    background:linear-gradient(darkgoldenrod,rgb(28, 188, 182));
+    padding: 1em;
+    margin-top: 3em;
   }
   .about-main{
-    margin: auto;
-    width: 50%;
+    margin: 10px;
+
   }
   .project-table{
     margin: auto;
@@ -164,5 +119,8 @@ body {
   }.contact-form{
     margin-left: 30%;
     /* padding-left: 30%; */
+    width: 50%;
+  }
+  .about-table{
     width: 50%;
   }
