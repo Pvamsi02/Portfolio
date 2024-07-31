@@ -2,6 +2,28 @@ import React from "react";
 function Project() {
   return (
     <div>
+      <div className="project-table">
+        <h1 className="text-center">Publications</h1>
+        <table className="table table-striped"  >
+        <thead>
+          <tr>
+            <th scope="col">Book Title</th>
+            <th scope="col">Chapter Title</th>
+            <th scope="col">Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Cybersecurity and Data Management Innovations for Revolutionizing Healthcare</td>
+            <td>Cyber Threats and Vulnerabilities in Connected Medical Devices</td>
+            <td>
+            <a href="https://www.igi-global.com/gateway/chapter/351709">Link</a>
+              </td>
+          </tr>
+        </tbody>
+
+        </table>
+      </div>
       <h1 className="text-center">Projects</h1>
       <div className="project-table">
       <table className="table table-striped">
@@ -13,6 +35,13 @@ function Project() {
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td>Product Review and Rating Platform</td>
+            <td>MERN</td>
+            <td>
+              <a href="https://github.com/Pvamsi02/Product-Helper">Link</a>
+            </td>
+          </tr>
           <tr>
             <td>Atm Interface</td>
             <td>Java</td>

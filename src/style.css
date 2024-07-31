@@ -104,10 +104,10 @@ body {
     color: #54c7e1 !important;
   }
   .profile-pic{
-   max-height: 450px;
-    border-radius: 50%;
+   max-height: 475px;
+    /* border-radius: 50%; */
     padding: 1em;
-    margin-top: 3em;
+    /* margin-top: 3em; */
   }
   .about-main{
     margin: 10px;

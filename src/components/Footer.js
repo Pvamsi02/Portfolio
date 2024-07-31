@@ -6,6 +6,8 @@ import {
   AiFillInstagram,AiFillFacebook,
 } from "../../node_modules/react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiCodechef,SiLeetcode  } from "react-icons/si";
+
 
 function Footer() {
   let date = new Date();
@@ -18,6 +20,26 @@ function Footer() {
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
+            <li className="social-icons">
+              <a
+                href="https://leetcode.com/u/Pvamsi02/"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <SiLeetcode  />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.codechef.com/users/ch_pvamsi02"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <SiCodechef />
+              </a>
+            </li>
             <li className="social-icons">
               <a
                 href="https://github.com/Pvamsi02"

@@ -9,15 +9,16 @@ function About() {
           Hello guys,
           <br /> Iam Chillara V L N S Pavana Vamsi <br />
           from Vellore Institute of Technology , Chennai <br />
-          Currently studing 3rd year in Computer Science Engineering
+          Currently in the final year of Computer Science Engineering
         </p>
         <ul className="list-inline ">
           <li className="list-inline-item">
-            I’m currently learning more programming languages
+            I’m currently finding my carrer in software development field.
           </li>
+          <li>Iam currently working on Devolopment Projects.</li>
+          <li>Iam exploring new fields in the software development.</li>
           <li>I had already learnt basic C, C++, Java, Python</li>
           <li>I will do Compitive Coding in C++</li>
-          <li>Iam currently working on Devolopment Projects.</li>
           <li>
             Iam now intrested in moving towards Android Devolopment and Web
             Development{" "}
@@ -37,13 +38,13 @@ function About() {
             <tr>
               <th scope="row">B.tech</th>
               <td>Vellore Institute of Technology,Chennai</td>
-              <td>9.21 CGPA</td>
+              <td>9.17 CGPA</td>
               <td>2021 - Present</td>
             </tr>
             <tr>
               <th scope="row">12th</th>
               <td>Sri Chaitanya Junior College, Tenali</td>
-              <td>96.9 %</td>
+              <td>969 / 1000</td>
               <td>2019 - 2021</td>
             </tr>
             <tr>

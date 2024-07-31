@@ -6,8 +6,9 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineContacts,
+  AiOutlineSafetyCertificate,
+  AiOutlineProfile,
 } from "react-icons/ai";
-import { FcAbout } from "react-icons/fc";
 import profile from "./PV-icon.png";
 
 function Navbars() {
@@ -17,9 +18,7 @@ function Navbars() {
         <div class="container">
           <Link className="navbar-brand text-dark" to="/">
             <img src={profile} alt="" class="pvicon" />{" "}
-            <span class="vamsi">
-              Pavana Vamsi
-              </span>
+            <span class="vamsi">Pavana Vamsi</span>
           </Link>
 
           <button
@@ -42,7 +41,16 @@ function Navbars() {
               </li>
               <li class="nav-item ">
                 <Link className=" nav-link active text-dark" to="/about">
-                  <FcAbout style={{ marginBottom: "2px" }} /> About
+                  <AiOutlineProfile style={{ marginBottom: "2px" }} /> About
+                </Link>
+              </li>
+              <li class="nav-item ">
+                <Link
+                  className=" nav-link active text-dark"
+                  to="/certifications"
+                >
+                  <AiOutlineSafetyCertificate style={{ marginBottom: "2px" }} />{" "}
+                  Certifications
                 </Link>
               </li>
               <li class="nav-item ">

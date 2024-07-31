@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
+import Certifications from "./components/Certifications";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/certifications" element={<Certifications />} />
         <Route path="/project" element={<Project />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
